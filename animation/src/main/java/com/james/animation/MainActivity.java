@@ -1,0 +1,88 @@
+package com.james.animation;
+
+import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+
+
+public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+    private Button btnFrame;
+    private Button btnTween;
+    private Button btnBouncingBalls;
+    private Button btnObjectAnimator;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        btnFrame = (Button) findViewById(R.id.btnFrame);
+        btnFrame.setOnClickListener(this);
+
+        btnTween = (Button) findViewById(R.id.btnTween);
+        btnTween.setOnClickListener(this);
+
+        btnBouncingBalls = (Button) findViewById(R.id.btnBouncingBalls);
+        btnBouncingBalls.setOnClickListener(this);
+
+        btnObjectAnimator = (Button) findViewById(R.id.btnObjectAnimator);
+        btnObjectAnimator.setOnClickListener(this);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        Intent intent;
+        switch (v.getId()) {
+            case R.id.btnFrame: {
+                intent = new Intent(this, FrameAnimationActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnTween: {
+                intent = new Intent(this, TweenAnimationActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnBouncingBalls: {
+                intent = new Intent(this, BouncingBallsActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnObjectAnimator: {
+                intent = new Intent(this, ObjectAnimatorActivity.class);
+                startActivity(intent);
+            }
+            break;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:image="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.james.customview.customview.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        image:image="@drawable/ic_launcher"
+        image:imageScaleType="fillXY"
+        image:imageTileText="hello andorid ! "
+        image:imageTileTextColor="#ff0000"
+        image:imageTileTextSize="30sp" />
+
+    <com.james.customview.customview.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        image:image="@drawable/ic_launcher"
+        image:imageScaleType="center"
+        image:imageTileText="hello world welcome"
+        image:imageTileTextColor="#00ff00"
+        image:imageTileTextSize="20sp" />
+
+    <com.james.customview.customview.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        image:image="@drawable/lmj"
+        image:imageScaleType="center"
+        image:imageTileText="风景~"
+        image:imageTileTextColor="#ff2372ff"
+        image:imageTileTextSize="12sp" />
+
+</LinearLayout>

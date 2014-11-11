@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.james.customview" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.james.customview.activities.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.james.customview.activities.CustomTextTileActivity"
+            android:label="@string/title_activity_my" >
+        </activity>
+        <activity
+            android:name="com.james.customview.activities.CustomImageViewActivity"
+            android:label="@string/title_activity_my_activity2" >
+        </activity>
+        <activity
+            android:name="com.james.customview.activities.CustomProgressBarActivity"
+            android:label="@string/title_activity_my_activity3" >
+        </activity>
+        <activity
+            android:name="com.james.customview.activities.CustomVolumControlBarActivity"
+            android:label="@string/title_activity_custom_volum_control_bar" >
+        </activity>
+    </application>
+
+</manifest>

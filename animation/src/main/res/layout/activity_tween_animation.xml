@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.james.animation.FrameAnimationActivity">
+
+    <Button
+        android:id="@+id/btnAlpha"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="20sp"
+        android:text="@string/alpha"/>
+
+    <Button
+        android:id="@+id/btnScale"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/scale"
+        android:layout_toRightOf="@id/btnAlpha"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/translate"
+        android:textSize="20sp"
+        android:layout_below="@id/btnAlpha"
+        android:id="@+id/btnTranslate"/>
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/rotate"
+        android:layout_below="@id/btnAlpha"
+        android:layout_toRightOf="@id/btnTranslate"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my">自定义TextTile</string>
+    <string name="title_activity_my_activity2">自定义ImageView</string>
+    <string name="title_activity_my_activity3">自定义ProgressBar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_custom_volum_control_bar">自定义VolumControlBar</string>
+
+</resources>

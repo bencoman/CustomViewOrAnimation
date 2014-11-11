@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:control="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+   >
+
+    <com.james.customview.customview.CustomVolumControlBar
+        android:text="@string/hello_world"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        control:bg="@drawable/audio"
+        control:circleWidth="20dp"
+        control:firstColor="@color/blue_light"
+        control:secondColor="@color/green_light"
+        control:splitSize="25"
+        control:dotCount="10"/>
+
+</RelativeLayout>
