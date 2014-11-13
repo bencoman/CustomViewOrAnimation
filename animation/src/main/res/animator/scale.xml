@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="scaleX"
+        android:valueFrom="1F"
+        android:valueTo="5F"
+        android:valueType="floatType"/>
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="scaleY"
+        android:valueFrom="1F"
+        android:valueTo="5F"
+        android:valueType="floatType"
+        android:startOffset="1000" />
+</set>

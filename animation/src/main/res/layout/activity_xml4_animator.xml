@@ -4,9 +4,10 @@
     android:id="@+id/id_container">
 
     <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/ball"
+        android:layout_centerInParent="true"
         android:id="@+id/ivBall" />
 
     <LinearLayout
@@ -18,14 +19,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="verticalRun"
-            android:text="@string/vertical" />
+            android:onClick="scaleX"
+            android:text="@string/scaleX" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="throwLine"
-            android:text="@string/throwLine" />
+            android:onClick="scaleXY"
+            android:text="@string/scaleXY" />
 
     </LinearLayout>
 

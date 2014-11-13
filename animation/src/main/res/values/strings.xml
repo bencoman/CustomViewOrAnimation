@@ -20,5 +20,27 @@
     <string name="title_activity_object_animator">ObjectAnimatorActivity</string>
     <string name="ObjectAnimator">ObjectAnimator</string>
     <string name="title_activity_value_animator">ValueAnimatorActivity</string>
+    <string name="vertical">垂直</string>
+    <string name="throwLine">抛物线</string>
+    <string name="ValueAnimator">ValueAnimator</string>
+    <string name="title_activity_animator_set">AnimatorSetActivity</string>
+    <string name="AnimatorSet">AnimatorSet</string>
+    <string name="togetherRun">简单的多动画Together</string>
+    <string name="oneByOne">多动画按次序执行</string>
+    <string name="title_activity_xml4_animator">Xml4AnimatorActivity</string>
+    <string name="scaleX">scaleX</string>
+    <string name="Xml4Animator">Xml4Animator</string>
+    <string name="scaleXY">scaleXY</string>
+    <string name="title_activity_layout_animation">LayoutAnimationActivity</string>
+    <string name="addBtns">addBtns</string>
+    <string name="APPEARING">APPEARING</string>
+    <string name="CHANGE_APPEARING">CHANGE_APPEARING</string>
+    <string name="DISAPPEARING">DISAPPEARING</string>
+    <string name="CHANGE_DISAPPEARING">CHANGE_DISAPPEARING</string>
+    <string name="title_activity_view_animate">ViewAnimateActivity</string>
+    <string name="LayoutAnimation">LayoutAnimation</string>
+    <string name="ViewAnimate">ViewAnimate</string>
+    <string name="ViewAnim">View Anim</string>
+    <string name="PropertyValuesHolder">PropertyValuesHolder</string>
 
 </resources>

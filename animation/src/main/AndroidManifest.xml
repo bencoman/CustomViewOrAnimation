@@ -36,6 +36,22 @@
             android:name="com.james.animation.ValueAnimatorActivity"
             android:label="@string/title_activity_value_animator" >
         </activity>
+        <activity
+            android:name="com.james.animation.AnimatorSetActivity"
+            android:label="@string/title_activity_animator_set" >
+        </activity>
+        <activity
+            android:name="com.james.animation.Xml4AnimatorActivity"
+            android:label="@string/title_activity_xml4_animator" >
+        </activity>
+        <activity
+            android:name="com.james.animation.LayoutAnimationActivity"
+            android:label="@string/title_activity_layout_animation" >
+        </activity>
+        <activity
+            android:name="com.james.animation.ViewAnimateActivity"
+            android:label="@string/title_activity_view_animate" >
+        </activity>
     </application>
 
 </manifest>

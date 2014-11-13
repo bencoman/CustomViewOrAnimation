@@ -16,6 +16,11 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private Button btnTween;
     private Button btnBouncingBalls;
     private Button btnObjectAnimator;
+    private Button btnValueAnimator;
+    private Button btnAnimatorSet;
+    private Button btnXml4Animator;
+    private Button btnLayoutAnimation;
+    private Button btnViewAnimate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +38,21 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         btnObjectAnimator = (Button) findViewById(R.id.btnObjectAnimator);
         btnObjectAnimator.setOnClickListener(this);
+
+        btnValueAnimator = (Button) findViewById(R.id.btnValueAnimator);
+        btnValueAnimator.setOnClickListener(this);
+
+        btnAnimatorSet = (Button) findViewById(R.id.btnAnimatorSet);
+        btnAnimatorSet.setOnClickListener(this);
+
+        btnXml4Animator = (Button) findViewById(R.id.btnXml4Animator);
+        btnXml4Animator.setOnClickListener(this);
+
+        btnLayoutAnimation = (Button) findViewById(R.id.btnLayoutAnimation);
+        btnLayoutAnimation.setOnClickListener(this);
+
+        btnViewAnimate = (Button) findViewById(R.id.btnViewAnimate);
+        btnViewAnimate.setOnClickListener(this);
     }
 
 
@@ -80,6 +100,31 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             break;
             case R.id.btnObjectAnimator: {
                 intent = new Intent(this, ObjectAnimatorActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnValueAnimator: {
+                intent = new Intent(this, ValueAnimatorActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnAnimatorSet: {
+                intent = new Intent(this, AnimatorSetActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnXml4Animator: {
+                intent = new Intent(this, Xml4AnimatorActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnLayoutAnimation: {
+                intent = new Intent(this, LayoutAnimationActivity.class);
+                startActivity(intent);
+            }
+            break;
+            case R.id.btnViewAnimate: {
+                intent = new Intent(this, ViewAnimateActivity.class);
                 startActivity(intent);
             }
             break;
