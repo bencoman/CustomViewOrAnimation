@@ -24,4 +24,10 @@
         android:id="@+id/volumControlBarBtn"
         android:text="@string/title_activity_custom_volum_control_bar"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollViewBtn"
+        android:text="@string/title_activity_custom_horizontal_scroll_view"/>
+
 </LinearLayout>

@@ -1,1 +1,2 @@
 include ':CustomView', ':animation', ':CustomViewGroup'
+include ':coolWeather'

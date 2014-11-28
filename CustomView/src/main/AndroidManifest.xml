@@ -32,6 +32,10 @@
             android:name="com.james.customview.activities.CustomVolumControlBarActivity"
             android:label="@string/title_activity_custom_volum_control_bar" >
         </activity>
+        <activity
+            android:name="com.james.customview.activities.CustomHorizontalScrollViewActivity"
+            android:label="@string/title_activity_custom_horizontal_scroll_view" >
+        </activity>
     </application>
 
 </manifest>

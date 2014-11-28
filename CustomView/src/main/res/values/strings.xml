@@ -9,5 +9,6 @@
     <string name="title_activity_my_activity3">自定义ProgressBar</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_custom_volum_control_bar">自定义VolumControlBar</string>
+    <string name="title_activity_custom_horizontal_scroll_view">自定义HorizontalScrollView</string>
 
 </resources>
